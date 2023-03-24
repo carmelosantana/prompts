@@ -1,0 +1,25 @@
+{
+    "name": "carmelosantana/prompts",
+    "description": "Prompt generator.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "CarmeloSantana\\Prompts\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Carmelo Santana",
+            "email": "me@carmelosantana.com"
+        }
+    ],
+    "require": {
+        "nicmart/string-template": "^0.1.2",
+        "spatie/ray": "^1.36",
+        "fzaninotto/faker": "^1.5"
+    },
+    "require-dev": {
+        "carmelosantana/release-bento": "^0.1.0"
+    }
+}
